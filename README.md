@@ -10,6 +10,8 @@ This image consists of:
 * Base image: python:3.7 (not alpine variant)
 * mssql-cli v.0.18.2 (installed via *pip*)
 
+Telemetry collection disabled.
+
 # Usage
 
 Let's execute SQL queries from `queries.sql` file, located in the current directory:
