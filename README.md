@@ -10,7 +10,11 @@ This image consists of:
 * Base image: python:3.7 (not alpine variant)
 * mssql-cli v.0.18.2 (installed via *pip*)
 
-Telemetry collection disabled.
+By default, mssql-cli collects usage data in order to improve your experience. The data is anonymous and does not include commandline argument values. The data is collected by Microsoft.
+
+Disable telemetry collection by setting environment variable MSSQL_CLI_TELEMETRY_OPTOUT to 'True' or '1'.
+
+Microsoft Privacy statement: https://privacy.microsoft.com/privacystatement
 
 # Usage
 
