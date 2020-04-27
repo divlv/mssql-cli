@@ -15,7 +15,7 @@ This image consists of:
 Let's execute SQL queries from `queries.sql` file, located in the current directory:
 
 ```
-docker run --rm  -v $(pwd):/r dimedrol/sqlline:latest -U mydbuser@mssqlserver -P billy26lifespan93Haas -d aegvidb -S mssqlserver.example.com -i /r/queries.sql
+docker run --rm  -v $(pwd):/r emergn/mssql-cli:latest -U mydbuser@mssqlserver -P billy26lifespan93Haas -d aegvidb -S mssqlserver.example.com -i /r/queries.sql
 ```
 
 * `/r` path used just to make command shorter
